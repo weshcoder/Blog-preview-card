@@ -36,7 +36,9 @@ body {
 
 #illustration {
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+    width: 336px;
+    height: 200px;
     /* position: absolute; */
     /* position: relative; */
     /* bottom: 125px; */
@@ -60,13 +62,18 @@ body {
     display: flex;
     justify-content: start;
     align-items: flex-start;
-    margin-top: 12px;
+    margin-bottom: 25px;
 }
 
 .title { 
     font-size: 24px;
     font-weight: 800;
     padding: 15px 0 15px;
+}
+
+.title:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
 }
 
 .account {
@@ -81,7 +88,8 @@ body {
 }
 #description {
     color: hsl(0, 0%, 50%);
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    line-height: calc(24/16);
 }
 .name { 
     margin-left: 15px;
